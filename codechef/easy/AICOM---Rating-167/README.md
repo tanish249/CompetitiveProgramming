@@ -77,11 +77,11 @@ The difficulty of the assignment is $\gt 60$, so AI cannot solve it.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T13:32:40.930Z  
+**Submitted:** 2026-07-20T13:33:17.457Z  
 
 ```py
 a=int(input())
-if a>=60:
+if 60>=a:
     print("YES")
 else:
     print("NO")
