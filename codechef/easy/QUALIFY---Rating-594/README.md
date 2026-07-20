@@ -58,14 +58,14 @@ Qualify
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T09:03:04.535Z  
+**Submitted:** 2026-07-20T09:03:25.725Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
     h=b+c*2
-    if a==h:
+    if a>=h:
         print("Qualify")
     else:
         print("NotQualify")
