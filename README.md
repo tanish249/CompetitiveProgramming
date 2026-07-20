@@ -6,13 +6,15 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 2 |
+| 2 | 4 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [implementation](#implementation) (1)
+- [math](#math) (1)
+- [sortings](#sortings) (1)
 - [strings](#strings) (1)
 
 ---
@@ -22,6 +24,18 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/520/A%20-%20Pangram/solution.txt) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2167/A%20-%20Square%3F/solution.txt) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2167/A%20-%20Square%3F/solution.txt) |
 
 ### strings
 
