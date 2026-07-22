@@ -78,17 +78,16 @@ Chefina took $6$ hours to complete the marathon. Thus, she gets a `BRONZE` medal
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T08:20:32.101Z  
+**Submitted:** 2026-07-22T05:30:25.065Z  
 
 ```py
 a=int(input())
-if a<3:
+if 3>a:
     print("GOLD")
-elif a>=3 and a<6:
+elif a>=3 and 6>a:
     print("SILVER")
-elif a>=6:
+else:
     print("BRONZE")
-    
 ```
 
 ---
