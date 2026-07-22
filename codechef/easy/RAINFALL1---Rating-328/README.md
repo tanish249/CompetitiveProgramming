@@ -63,7 +63,7 @@ HEAVY
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T05:45:54.446Z  
+**Submitted:** 2026-07-22T06:39:32.546Z  
 
 ```py
 t=int(input())
@@ -71,7 +71,7 @@ for _ in range(t):
     a=int(input())
     if 3>a:
         print("LIGHT")
-    elif a>=3 and a<7:
+    elif a>=3 and 7>a:
         print("MODERATE")
     else:
         print("HEAVY")
