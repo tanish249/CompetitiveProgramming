@@ -1,9 +1,9 @@
 t=int(input())
 for _ in range(t):
     a=int(input())
-    if(a<=3):
+    if 3>=a:
         print("BRONZE")
-    elif(a>3 and a<=6):
-        print("SILVER")
-    elif(a>6):
+    elif a>3 and 6>=a:
+        print("silver")
+    elif a>6:
         print("GOLD")
