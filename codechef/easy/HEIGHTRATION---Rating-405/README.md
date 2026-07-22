@@ -64,7 +64,7 @@ The maximum of $\{27, 4\}$ is $27$. Hence the `Height` of $\frac{27}{4}$ is $27$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T09:16:08.635Z  
+**Submitted:** 2026-07-22T08:36:43.916Z  
 
 ```py
 a,b=map(int,input().split())
