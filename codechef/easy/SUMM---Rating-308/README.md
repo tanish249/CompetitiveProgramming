@@ -53,7 +53,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T05:50:29.353Z  
+**Submitted:** 2026-07-22T05:32:28.491Z  
 
 ```py
 t=int(input())
@@ -61,7 +61,7 @@ for _ in range(t):
     a,b,c=map(int,input().split())
     h=a+b
     if h==c:
-        print("YES")
+        print('YES')
     else:
         print("NO")
 ```
