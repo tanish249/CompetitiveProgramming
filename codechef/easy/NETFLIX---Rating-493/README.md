@@ -59,13 +59,13 @@ Note that there are other possible ways as well.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-23T06:21:11.121Z  
+**Submitted:** 2026-07-23T06:21:29.325Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
-    if a+b>=d or a+b>=d or b+c>=d:
+    if a+b>=d or a+c>=d or b+c>=d:
         print("YES")
     else:
         print("NO")
