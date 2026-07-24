@@ -49,14 +49,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-23T06:17:40.880Z  
+**Submitted:** 2026-07-24T14:57:02.886Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
-    h=abs(a-b)
-    print(h*c)
+    h=a-b
+    k=h*c
+    print(k)
 ```
 
 ---
