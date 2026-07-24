@@ -56,13 +56,13 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-24T15:13:50.081Z  
+**Submitted:** 2026-07-24T15:14:23.149Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=a//b
+    h=a/b
     if h%2==0:
         print("YES")
     else:
