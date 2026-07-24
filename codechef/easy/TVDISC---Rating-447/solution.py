@@ -2,10 +2,10 @@ t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
     h=a-c
-    k=b-d
-    if(h<k):
+    g=b-d
+    if g>h:
         print("First")
-    elif(h>k):
+    elif h>g:
         print("Second")
-    else:
+    elif h==g:
         print("Any")
