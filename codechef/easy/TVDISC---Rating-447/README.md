@@ -58,19 +58,19 @@ Any
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-24T14:54:12.638Z  
+**Submitted:** 2026-07-24T15:23:37.572Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
     h=a-c
-    k=b-d
-    if(h<k):
+    g=b-d
+    if g>h:
         print("First")
-    elif(h>k):
+    elif h>g:
         print("Second")
-    else:
+    elif h==g:
         print("Any")
 ```
 
