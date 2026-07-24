@@ -58,13 +58,13 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-24T13:32:54.446Z  
+**Submitted:** 2026-07-24T13:33:05.536Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=input()
-    if '7' in a:
+    if "7" in a:
         print("YES")
     else:
         print("NO")
