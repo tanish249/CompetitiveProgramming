@@ -7,5 +7,5 @@ for _ in range(t):
         print("First")
     elif(h>k):
         print("Second")
-    elif(h==k):
+    else:
         print("Any")
