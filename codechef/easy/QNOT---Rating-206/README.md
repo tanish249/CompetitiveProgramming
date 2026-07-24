@@ -71,25 +71,15 @@ Since TanMinati was not defeated, the participant does not qualify to the next r
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-24T14:08:50.135Z  
+**Submitted:** 2026-07-24T14:09:35.128Z  
 
 ```py
-a,b,c=map(int,input().split())
-if a>=2*b and  a>=2*c:
-    print("Yes")
-else:
-    print("NO")
-    
-    
-    
-    
 # cook your dish here
-N,X,Y=map(int,input().split())
-if N>=2*X and N>=2*Y:
-    print("Yes")
+N, X, Y = map(int, input().split())
+if N >= 2 * X and N >= 2 * Y:
+    print("YES")
 else:
     print("NO")
-    
 ```
 
 ---
