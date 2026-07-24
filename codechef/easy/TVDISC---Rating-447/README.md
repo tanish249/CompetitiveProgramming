@@ -58,7 +58,7 @@ Any
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-24T14:53:58.455Z  
+**Submitted:** 2026-07-24T14:54:12.638Z  
 
 ```py
 t=int(input())
@@ -70,7 +70,7 @@ for _ in range(t):
         print("First")
     elif(h>k):
         print("Second")
-    elif(h==k):
+    else:
         print("Any")
 ```
 
