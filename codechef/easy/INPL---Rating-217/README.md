@@ -61,12 +61,12 @@ BOOM
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-25T14:19:28.273Z  
+**Submitted:** 2026-07-25T14:16:46.554Z  
 
 ```py
-x = int(input())
-
-if x >= 7:
+# cook your dish here
+n = int(input())
+if n>=7:
     print("THALA")
 else:
     print("BOOM")
