@@ -86,7 +86,7 @@ Chef will choose the first dish, since it has a smaller difference.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-25T14:31:25.784Z  
+**Submitted:** 2026-07-25T14:38:24.634Z  
 
 ```py
 a,b,c,d=map(int,input().split())
