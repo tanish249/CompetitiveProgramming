@@ -1,0 +1,9 @@
+a,b,c,d=map(int,input().split())
+h=a*b*c
+k=d*d*d
+if(h>k):
+    print("Cuboid")
+elif(h<k):
+    print("Cube")
+elif(h==k):
+    print("Equal")
