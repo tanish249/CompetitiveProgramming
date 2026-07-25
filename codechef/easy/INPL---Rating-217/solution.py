@@ -1,3 +1,6 @@
 # cook your dish here
-n=int(input())
-print("THALA" if n>=7 else "BOOM")
+n = int(input())
+if n>=7:
+    print("THALA")
+else:
+    print("BOOM")
