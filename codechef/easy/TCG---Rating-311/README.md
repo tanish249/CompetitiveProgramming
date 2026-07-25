@@ -80,7 +80,7 @@ The updated value of capital gain tax is same as the previous value.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-25T14:30:50.978Z  
+**Submitted:** 2026-07-25T14:30:55.368Z  
 
 ```py
 a,b=map(int,input().split())
