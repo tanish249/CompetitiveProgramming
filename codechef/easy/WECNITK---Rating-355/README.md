@@ -64,7 +64,7 @@ The access code entered does not match the expected one, so you are not granted 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-26T06:51:14.640Z  
+**Submitted:** 2026-07-26T09:13:00.010Z  
 
 ```py
 a=input()
