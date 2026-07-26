@@ -57,14 +57,20 @@ NO
 
 ## Solution
 
-**Language:** plain_text  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-26T06:54:33.140Z  
+**Submitted:** 2026-07-26T09:08:00.632Z  
 
-```plain_text
-# cook your dish here
-
+```py
+t=int(input())
+for _ in range(t):
+    a,b=map(int,input().split())
+    h=a+b
+    if h%2==0:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
