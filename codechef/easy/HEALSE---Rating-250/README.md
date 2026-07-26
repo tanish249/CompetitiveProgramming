@@ -87,15 +87,15 @@ The student sleeps for exactly $8$ hours, so the program should output `PERFECT`
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-26T06:41:28.451Z  
+**Submitted:** 2026-07-26T06:41:56.549Z  
 
 ```py
 a=int(input())
 if 8>a:
     print("LESS")
-elif a==b:
+elif a==8:
     print("PERFECT")
-elif b>a:
+elif a>8:
     print("MORE")
 ```
 
