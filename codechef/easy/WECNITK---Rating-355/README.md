@@ -64,11 +64,12 @@ The access code entered does not match the expected one, so you are not granted 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-26T06:50:51.242Z  
+**Submitted:** 2026-07-26T06:51:01.240Z  
 
 ```py
 a=input()
-if a==""
+if a=="WECNITK":
+    print("")
 ```
 
 ---
