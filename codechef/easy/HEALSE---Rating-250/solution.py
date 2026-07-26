@@ -1,7 +1,7 @@
 a=int(input())
 if 8>a:
     print("LESS")
-elif a==b:
+elif a==8:
     print("PERFECT")
-elif b>a:
+elif a>8:
     print("MORE")
