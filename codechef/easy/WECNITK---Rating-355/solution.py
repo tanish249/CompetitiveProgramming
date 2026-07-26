@@ -1,2 +1,3 @@
 a=input()
-if a==""
+if a=="WECNITK":
+    print("")
