@@ -73,7 +73,7 @@ So, a penalty session will be carried out.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-26T06:00:32.129Z  
+**Submitted:** 2026-07-26T06:00:37.013Z  
 
 ```py
 a,b=map(int,input().split())
