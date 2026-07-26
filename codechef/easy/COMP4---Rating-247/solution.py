@@ -1,0 +1,9 @@
+a=int(input())
+if(a==1):
+    print(8000)
+elif(a==2):
+    print(4000)
+elif(a==3):
+    print(2000)
+elif(a==4):
+    print(1000)
