@@ -1,5 +1,5 @@
-a=-50
-b=40
-total=a+b
-product=a*b
-print(total,product)
+a=14
+b=7 
+area=a*a
+print(area)
+print(7*area)
