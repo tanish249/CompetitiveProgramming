@@ -58,13 +58,13 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-21T09:19:07.046Z  
+**Submitted:** 2026-07-27T09:13:23.596Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=10*b
+    h=b*10
     if a>h:
         print("YES")
     else:
