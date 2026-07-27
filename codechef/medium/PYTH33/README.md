@@ -4,27 +4,21 @@
 
 ## Problem
 
-### Negative Numbers
-
-Write a program which does the following:
-
-- Display the sum and product of 2 integers: -50 & 40.
-- Initialize the following variables in your program and use them in the computation Variable a and assign it the value -50 Variable b assign it the value 40 Variables total & product - assign the relevant values to them
-- Output total and product as space separated values on a single lines
+_Description not available._
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T12:34:33.518Z  
+**Submitted:** 2026-07-27T12:33:33.581Z  
 
 ```py
-a=-50
-b=40
-total=a+b
-product=a*b
-print(total,product)
+a=14
+b=7 
+area=a*a
+print(area)
+print(7*area)
 ```
 
 ---
