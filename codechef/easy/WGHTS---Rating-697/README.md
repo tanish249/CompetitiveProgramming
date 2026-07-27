@@ -58,7 +58,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T05:33:49.703Z  
+**Submitted:** 2026-07-27T05:34:16.304Z  
 
 ```py
 t=int(input())
@@ -66,7 +66,7 @@ for _ in range(t):
     a,b,c,d=map(int,input().split())
     if a==b or a==c or a==d:
         print("YES")
-    elif a==b+c or a==b+d or a==c+d:
+    elif a==b+c or a==b+d or a==c+d or a==b+c+d:
         print("YES")
     else:
         print("NO")
