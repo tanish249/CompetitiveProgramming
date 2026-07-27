@@ -77,7 +77,7 @@ Example - Insufficient Funds
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T09:22:42.891Z  
+**Submitted:** 2026-07-27T09:22:45.791Z  
 
 ```py
 a,b=map(float,input().split())
