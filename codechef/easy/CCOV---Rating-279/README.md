@@ -63,7 +63,7 @@ Since Alice's speed exceeds $40$, she will be fined.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-28T08:45:17.000Z  
+**Submitted:** 2026-07-28T08:45:29.093Z  
 
 ```py
 a=int(input())
