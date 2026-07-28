@@ -56,7 +56,7 @@ Chef already has enough XP to unlock the next level.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-28T07:04:11.173Z  
+**Submitted:** 2026-07-28T07:04:22.269Z  
 
 ```py
 a,b=map(int,input().split())
