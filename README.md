@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 10 | 6 |
+| 11 | 6 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (1)
-- [greedy](#greedy) (1)
+- [brute force](#brute-force) (2)
+- [greedy](#greedy) (2)
 - [implementation](#implementation) (5)
 - [math](#math) (5)
 - [sortings](#sortings) (1)
@@ -25,6 +25,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/231/A%20-%20Team/solution.txt) |
 | 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.txt) |
 
 ### greedy
@@ -32,6 +33,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/231/A%20-%20Team/solution.txt) |
 
 ### implementation
 
