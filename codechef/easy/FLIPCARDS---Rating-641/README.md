@@ -61,16 +61,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-28T08:54:26.678Z  
+**Submitted:** 2026-07-28T08:55:27.531Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    if a!=b:
-        print(b)
-    else:
-        print(0)
+    h=abs(a-b)
+    print(min(h,b))
 ```
 
 ---
