@@ -1,0 +1,11 @@
+t=int(input())
+for _ in range(t):
+    a=input()
+    h=len(a)
+    o=a[0]
+    p=a[-1]
+    u=abs(h-2)
+    if h>10:
+        print(o+str(u)+p)
+    else:
+        print(a)
