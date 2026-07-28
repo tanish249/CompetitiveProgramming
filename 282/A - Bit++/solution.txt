@@ -1,0 +1,10 @@
+n=int(input())
+val = 0 
+for _ in range(n):
+    value=input().lower()
+    if value=="x++" or value=="++x":
+        val+=1
+    elif value=="x--"or value=="--x":
+        val-=1
+print(val)
+    
