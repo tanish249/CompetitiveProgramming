@@ -72,14 +72,17 @@ In the first month, its price increases by $Y=2$ to become $8$ coins. Chef earns
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T15:09:10.528Z  
+**Submitted:** 2026-07-29T15:11:15.297Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
-    
-    
+    a+=1 and c+=2 
+     a===c 
+     print(count)
+    else:
+        print
 ```
 
 ---
