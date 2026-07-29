@@ -59,7 +59,7 @@ If the second team scores at a run rate of $10$, they score $20 \cdot 10 = 200$ 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T06:41:39.272Z  
+**Submitted:** 2026-07-29T06:41:40.814Z  
 
 ```py
 a=int(input())
