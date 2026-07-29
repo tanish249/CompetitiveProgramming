@@ -59,7 +59,7 @@ $48$ has two different digits $4$ and $8$, so it is  *varied*.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T14:35:27.678Z  
+**Submitted:** 2026-07-29T14:36:35.910Z  
 
 ```py
 a=input()
