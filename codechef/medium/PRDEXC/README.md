@@ -58,7 +58,7 @@ It can be verified that this is the minimum number of operations needed.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T14:50:45.914Z  
+**Submitted:** 2026-07-29T14:51:49.394Z  
 
 ```py
 t = int(input())
