@@ -7,5 +7,5 @@ for _ in range(t):
         print(-1)
     elif h==g:
         print(0)
-    elif h>g:
+    else:
         print(1)
