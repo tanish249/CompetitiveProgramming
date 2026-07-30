@@ -63,14 +63,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T10:52:46.534Z  
+**Submitted:** 2026-07-30T10:54:48.887Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
-    h=c//a
-    g=d//b
+    h=c*b
+    g=d*a
     if g>h:
         print(-1)
     elif h==g:
