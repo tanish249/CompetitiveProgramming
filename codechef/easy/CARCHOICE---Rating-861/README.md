@@ -63,7 +63,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T10:52:19.075Z  
+**Submitted:** 2026-07-30T10:52:42.002Z  
 
 ```py
 t=int(input())
@@ -75,7 +75,7 @@ for _ in range(t):
         print(-1)
     elif h==g:
         print(0)
-    elif h>g:
+    else:
         print(1)
 ```
 
