@@ -51,7 +51,7 @@ Peri
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T10:45:20.905Z  
+**Submitted:** 2026-07-30T10:45:29.129Z  
 
 ```py
 a = int(input())
