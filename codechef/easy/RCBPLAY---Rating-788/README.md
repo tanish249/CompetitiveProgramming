@@ -55,15 +55,14 @@ Note: There can be many other combinations which will lead to RCB qualifying for
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T13:01:06.935Z  
+**Submitted:** 2026-07-30T13:02:36.518Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
-    h=abs(a-b)
-    g=c*2
-    if g>=h:
+    h=a+2*c
+    if h>=b:
         print("YES")
     else:
         print("NO")
