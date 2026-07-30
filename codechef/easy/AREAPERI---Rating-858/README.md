@@ -51,7 +51,7 @@ Peri
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T10:45:29.129Z  
+**Submitted:** 2026-07-30T10:45:59.050Z  
 
 ```py
 a = int(input())
@@ -66,7 +66,9 @@ if peri > area:
 elif area > peri:
     print("area")
     print(area)
-
+else:
+    print("Eq")
+    print(area)
 ```
 
 ---
