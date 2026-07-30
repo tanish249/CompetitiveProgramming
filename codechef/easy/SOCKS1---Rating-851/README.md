@@ -61,7 +61,7 @@ Since all three socks have the same colour, Chef can wear a pair of socks with t
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T10:23:18.488Z  
+**Submitted:** 2026-07-30T10:23:26.779Z  
 
 ```py
 a,b,c=map(int,input().split())
