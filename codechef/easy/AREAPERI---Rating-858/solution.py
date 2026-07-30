@@ -10,3 +10,6 @@ if peri > area:
 elif area > peri:
     print("area")
     print(area)
+else:
+    print("Eq")
+    print(area)
