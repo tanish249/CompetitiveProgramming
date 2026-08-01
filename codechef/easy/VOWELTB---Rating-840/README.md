@@ -36,11 +36,11 @@ Consonant
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T14:29:41.723Z  
+**Submitted:** 2026-08-01T14:29:54.366Z  
 
 ```py
 b=input().lower()
-if(b=="a" or b=="a" or b=="i" or b=="o" or b=="u"):
+if(b=="a" or b=="e" or b=="i" or b=="o" or b=="u"):
     print("vowel")
 else:
     print("consonant")
