@@ -56,11 +56,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T13:01:27.621Z  
+**Submitted:** 2026-08-01T11:26:02.395Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    a=int(input())
+    print(int(a/50))
 ```
 
 ---
