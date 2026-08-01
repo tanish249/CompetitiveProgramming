@@ -48,7 +48,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-31T16:13:02.159Z  
+**Submitted:** 2026-08-01T06:00:23.882Z  
 
 ```py
 import math
@@ -57,14 +57,11 @@ t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
     h=math.ceil(b/100)
-    g=abs(a-h)
-    if(h>a):
-         print(g)
+    if h>a:
+        print(abs(h-a))
     else:
         print(0)
 
-        
-  
 ```
 
 ---
