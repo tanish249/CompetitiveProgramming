@@ -55,20 +55,20 @@ Alice
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-30T10:13:32.695Z  
+**Submitted:** 2026-08-01T06:14:33.459Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
     h=a/b
-    g=c/d 
+    g=c/d
     if h>g:
-        print("alice")
+        print("Alice")
     elif g>h:
-        print("bob")
+        print("BOB")
     else:
-        print("equal")
+        print("EQUAL")
 ```
 
 ---
