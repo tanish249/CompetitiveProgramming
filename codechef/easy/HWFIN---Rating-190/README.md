@@ -85,15 +85,11 @@ Each worksheet has $5$ questions. Even if Chef completes $10$ of them for $10\cd
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T06:57:27.169Z  
+**Submitted:** 2026-08-02T06:58:56.159Z  
 
 ```py
-import math 
-
 a,b=map(int,input().split())
-h=math.ceil(a/10)
-g=h*10
-if g+a>=100:
+if  a+b *10 >=100:
     print("YES")
 else:
     print("NO")
