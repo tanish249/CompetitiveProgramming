@@ -58,14 +58,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T07:02:45.534Z  
+**Submitted:** 2026-08-02T07:03:04.865Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=a+b
-    print(h)
+    print(a+b)
 ```
 
 ---
