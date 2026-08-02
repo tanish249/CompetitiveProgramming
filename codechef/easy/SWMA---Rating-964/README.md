@@ -67,7 +67,7 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T09:45:19.937Z  
+**Submitted:** 2026-08-02T10:04:12.821Z  
 
 ```py
 t=int(input())
