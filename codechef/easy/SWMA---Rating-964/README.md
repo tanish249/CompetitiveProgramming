@@ -67,7 +67,7 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T09:43:06.031Z  
+**Submitted:** 2026-08-02T09:45:19.937Z  
 
 ```py
 t=int(input())
@@ -75,7 +75,7 @@ for _ in range(t):
     a,b=input().split()
     h=str(a)[::-1]
     g=str(b)[::-1]
-    if h>g or a>b:
+    if h>b or a>g or a>b or h>g:
         print('YES')
     else:
         print("NO")
