@@ -1,8 +1,7 @@
-t=int(input())
-for _ in range(t):
-    a,b,c=map(int,input().split())
-    h=b+c*2
-    if h>=a:
-        print("Qualify")
+# cook your dish here
+for _ in range(int(input())):
+    n = int(input())
+    if n%4:
+        print('not good')
     else:
-        print("NotQualify")
+        print('good')
