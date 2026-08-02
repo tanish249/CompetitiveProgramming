@@ -70,14 +70,15 @@ Thus, both of them can have same number of problems left.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T09:03:08.307Z  
+**Submitted:** 2026-08-02T09:03:39.903Z  
 
 ```py
 # cook your dish here
 T = int(input())
 for i in range(T):
     N,M=map(int,input().split())
-    if abs((N-M))%2==0:
+    h=abs(N-M)
+    if h%2==0:
         print("YES")
     else:
         print("NO")
