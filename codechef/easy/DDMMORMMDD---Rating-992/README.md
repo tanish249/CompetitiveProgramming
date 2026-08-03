@@ -59,7 +59,7 @@ Fun fact: `29/02/2024` (read as `DD/MM/YYYY`) is a leap year day.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T07:33:57.179Z  
+**Submitted:** 2026-08-03T07:36:55.619Z  
 
 ```py
 t=int(input())
@@ -67,12 +67,13 @@ for _ in range(t):
     a=input()
     h=int(a[0]+a[1])
     g=int(a[3]+a[4])
-    if h>=12 and 12>=g:
-        print("DD/MM/YYYY")
-    elif 1<=g<=12 and 1<=h<=12:
+    if 1<=g<=12 and 1<=h<=12:
         print("BOTH")
-    else :
+    elif 1<=h<=12:
         print("MM/DD/YYYY")
+    else:
+        print("DD/MM/YYYY")
+ 
 ```
 
 ---
