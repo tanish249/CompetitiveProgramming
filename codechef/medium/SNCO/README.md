@@ -85,7 +85,7 @@ Since the totals are not equal, the answer is `NO`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-03T13:31:04.419Z  
+**Submitted:** 2026-08-03T13:31:12.040Z  
 
 ```py
 a,b,c,d=map(int,input().split())
