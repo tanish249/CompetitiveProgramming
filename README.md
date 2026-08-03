@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 17 | 7 |
+| 18 | 7 |
 
 ---
 
@@ -14,10 +14,10 @@
 
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (2)
-- [greedy](#greedy) (2)
-- [implementation](#implementation) (11)
+- [greedy](#greedy) (3)
+- [implementation](#implementation) (12)
 - [math](#math) (5)
-- [sortings](#sortings) (2)
+- [sortings](#sortings) (3)
 - [strings](#strings) (5)
 
 ---
@@ -41,6 +41,7 @@
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/231/A%20-%20Team/solution.txt) |
+| 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.txt) |
 
 ### implementation
 
@@ -50,6 +51,7 @@
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 228A | [Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/228/A%20-%20Is%20your%20horseshoe%20on%20the%20other%20hoof%3F/solution.txt) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.txt) |
+| 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.txt) |
 | 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/520/A%20-%20Pangram/solution.txt) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.txt) |
 | 1722A | [Spell Check](https://codeforces.com/contest/1722/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1722/A%20-%20Spell%20Check/solution.txt) |
@@ -72,6 +74,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.txt) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.py) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2167/A%20-%20Square%3F/solution.txt) |
 
