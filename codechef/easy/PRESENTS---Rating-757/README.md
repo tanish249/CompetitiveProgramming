@@ -49,15 +49,17 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T17:45:31.830Z  
+**Submitted:** 2026-08-05T17:45:08.604Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=int(input())
     h=a//5
-    print(a-h)
- 
+    if a%5==0:
+        print(abs(a-h))
+    else:
+        print(a)
 ```
 
 ---
