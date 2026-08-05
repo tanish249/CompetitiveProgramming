@@ -60,7 +60,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T13:39:14.091Z  
+**Submitted:** 2026-08-05T13:39:20.922Z  
 
 ```py
 def solve(N, X, A):
