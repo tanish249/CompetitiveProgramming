@@ -59,13 +59,14 @@ Similar to the previous explanation, the maximum total score that Team B can ach
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-06T14:46:15.108Z  
+**Submitted:** 2026-08-06T14:51:13.746Z  
 
 ```py
 a,b,c=map(int,input().split())
 h=20-b
 g=h*6
-p=g+c
+o=g*6
+p=c+o
 if p>a:
     print("YES")
 else:
