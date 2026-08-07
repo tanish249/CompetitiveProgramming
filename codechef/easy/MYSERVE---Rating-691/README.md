@@ -67,17 +67,17 @@ Bob
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T15:05:43.509Z  
+**Submitted:** 2026-08-07T15:07:00.954Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=(a+b)+1
-    if h%3==0:
-        print("bob")
-    else:
+    h=(a+b)
+    if h%4==0 or h%4==1:
         print("alice")
+    else:
+        print("bob")
 ```
 
 ---
