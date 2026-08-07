@@ -56,14 +56,16 @@ Chef should choose the third option and use the spells with power $4$ and $8$ to
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T14:06:57.684Z  
+**Submitted:** 2026-08-07T14:07:37.520Z  
 
 ```py
 t=int(input())
 for _ in range(t):
-    nums=list(map(int,input().split()))
-    h=nums[-1]+nums[-2]
-    print(h)
+   a,b,c=map(int,input().split())
+   h=a+b
+   g=b+c
+   p=a+c
+   print(max(h,g,p))
 ```
 
 ---
