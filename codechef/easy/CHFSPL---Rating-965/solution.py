@@ -1,5 +1,7 @@
 t=int(input())
 for _ in range(t):
-    nums=list(map(int,input().split()))
-    h=nums[-1]+nums[-2]
-    print(h)
+   a,b,c=map(int,input().split())
+   h=a+b
+   g=b+c
+   p=a+c
+   print(max(h,g,p))
