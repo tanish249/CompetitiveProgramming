@@ -67,7 +67,7 @@ Bob
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T15:05:53.545Z  
+**Submitted:** 2026-08-07T15:06:12.294Z  
 
 ```py
 t=int(input())
