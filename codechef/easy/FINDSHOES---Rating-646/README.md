@@ -57,7 +57,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T05:11:24.131Z  
+**Submitted:** 2026-08-08T05:10:33.434Z  
 
 ```py
 t=int(input())
@@ -66,9 +66,8 @@ for _ in range(t):
     h=a*2
     if a<b:
         print(abs(a-b))
-    elif a>b:
+    elif a>=b:
         print(abs(h-b))
-    
 ```
 
 ---
