@@ -57,14 +57,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T05:12:21.914Z  
+**Submitted:** 2026-08-08T05:12:40.908Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
     h=a*2
-    if a<b:
+    if a<=b:
         print(a)
     elif a>b:
         print(abs(h-b))
