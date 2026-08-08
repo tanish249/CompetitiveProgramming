@@ -4,6 +4,5 @@ for _ in range(t):
     h=a*2
     if a<b:
         print(abs(a-b))
-    elif a>b:
+    elif a>=b:
         print(abs(h-b))
-    
