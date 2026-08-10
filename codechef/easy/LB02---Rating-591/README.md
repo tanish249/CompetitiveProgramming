@@ -49,7 +49,7 @@ CHICKEN
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T08:11:39.137Z  
+**Submitted:** 2026-08-10T08:13:29.797Z  
 
 ```py
 # Update the program below to solve the problem
