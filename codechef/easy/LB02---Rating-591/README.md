@@ -49,7 +49,7 @@ CHICKEN
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T08:11:33.536Z  
+**Submitted:** 2026-08-10T08:11:39.137Z  
 
 ```py
 # Update the program below to solve the problem
@@ -62,7 +62,7 @@ for i in range(t):
     elif c%a==0:
         print("CHICKEN")
     elif c%b==0:
-        print("DUCKS")
+        print("DUCK")
     else:
         print("NONE")
 ```
