@@ -49,7 +49,7 @@ CHICKEN
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T08:10:42.585Z  
+**Submitted:** 2026-08-10T08:11:33.536Z  
 
 ```py
 # Update the program below to solve the problem
@@ -59,8 +59,10 @@ for i in range(t):
     a,b,c= map(int, input().split())
     if c%a==0 and c%b==0:
         print("ANY")
-    elif c%a==0 and c:
+    elif c%a==0:
         print("CHICKEN")
+    elif c%b==0:
+        print("DUCKS")
     else:
         print("NONE")
 ```
