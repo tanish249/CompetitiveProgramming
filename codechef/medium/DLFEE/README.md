@@ -61,7 +61,7 @@ Therefore, the total amount is $600$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T13:32:25.443Z  
+**Submitted:** 2026-08-10T13:37:07.702Z  
 
 ```py
 a,b,c=map(int,input().split())
