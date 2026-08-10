@@ -61,15 +61,15 @@ Therefore, the total amount is $600$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T13:37:11.762Z  
+**Submitted:** 2026-08-10T13:37:42.433Z  
 
 ```py
 a,b,c=map(int,input().split())
 h=a+b
-if c>=h:
-    print(h)
-else:
+if a>=c:
     print(a)
+else:
+    print(h)
 ```
 
 ---
