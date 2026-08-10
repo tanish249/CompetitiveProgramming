@@ -8,6 +8,6 @@ for i in range(t):
     elif c%a==0:
         print("CHICKEN")
     elif c%b==0:
-        print("DUCKS")
+        print("DUCK")
     else:
         print("NONE")
