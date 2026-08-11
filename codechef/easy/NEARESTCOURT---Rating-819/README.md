@@ -1,0 +1,79 @@
+# NEARESTCOURT - Rating 819
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+### Nearest Court
+
+Chef and Chefina are at positions $X$ and $Y$ on a number line.
+
+They both love badminton.
+
+It is known that badminton courts are located at every integer point.
+
+They want to find a court such that the  *maximum*  distance travelled by either of them is  **minimized**.
+
+Formally, suppose they choose the badminton court at position $Z$. You need to find the minimum value of $\max(|X-Z|, |Y-Z|)$ across all possible choices of $Z$. Here, $|X|$ denotes absolute value of $X$.
+
+Report this minimum value.
+
+### Input Format
+- The first line of input will contain a single integer $T$, denoting the number of test cases.
+- Each test case consists of two space-separated integers $X$ and $Y$.
+### Output Format
+
+For each test case, output the minimum possible value of $\max(|X-Z|, |Y-Z|)$.
+
+### Constraints
+- $1 \leq T \leq 1000$
+- $1 \leq X, Y \leq 1000$
+- $X \neq Y$
+### Sample 1:
+Input
+Output
+
+```
+4
+3 5
+7 6
+1 10
+63 31
+
+```
+
+```
+1
+1
+5
+16
+
+```
+
+### Explanation:
+
+ **Test case $1$:**  They will choose the court at position $4$ in the optimal case where both have to travel a distance of $1$ unit.
+
+ **Test case $2$:**  They can either choose the court at position $6$ or position $7$. In both the cases one person has to travel a distance of $1$ unit.
+
+## Solution
+
+**Language:** Python  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-08-11T08:52:04.378Z  
+
+```py
+import math
+
+t=int(input())
+for _ in range(t):
+    a,b=map(int,input().split())
+    h=abs(a-b)
+    g=math.ceil(h/2)
+    print(g)
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/NEARESTCOURT)
