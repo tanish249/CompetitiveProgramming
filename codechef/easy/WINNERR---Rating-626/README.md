@@ -84,13 +84,13 @@ Since $6 = 6$, $P$ and $Q$ gets a same rank (TIE).
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T06:07:52.015Z  
+**Submitted:** 2026-08-18T06:08:13.546Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
-    if (a==d or b==c):
+    if (a==d or b==d):
         print("TIE")
     elif(b<d):
         print("P")
