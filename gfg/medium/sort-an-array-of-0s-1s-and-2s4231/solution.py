@@ -1,4 +1,4 @@
 class Solution:
-    def sort012(self, arr):
-        arr.sort()
-        return arr
+    def sort012(self, nums):
+      nums.sort()
+      return nums
