@@ -32,13 +32,13 @@ Explanation: 0s, 1s and 2s are segregated into ascending order.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-06T14:31:51.540Z  
+**Submitted:** 2026-08-18T06:51:13.643Z  
 
 ```py
 class Solution:
-    def sort012(self, arr):
-        arr.sort()
-        return arr
+    def sort012(self, nums):
+      nums.sort()
+      return nums
 ```
 
 ---
