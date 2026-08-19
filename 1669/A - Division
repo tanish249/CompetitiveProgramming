@@ -1,12 +1,17 @@
-t=int(input())
-for _ in range(t):
-    a=int(input())
-    if a>=1900:
-        print("Division 1")
-    elif 1600<=a:
-        print("Division 2")
-    elif 1400<=a:
-        print("Division 3")
-    else:
-        print("Division 4")
-    
+<h2><a href="https://codeforces.com/contest/1669/problem/A" target="_blank" rel="noopener noreferrer">1669A — Division?</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1669A](https://codeforces.com/contest/1669/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+_Problem statement could not be retrieved. Please visit the link above._
