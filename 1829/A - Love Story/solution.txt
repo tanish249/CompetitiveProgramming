@@ -1,0 +1,13 @@
+t = int(input())
+ 
+for _ in range(t):
+    a = input()
+ 
+    target = "codeforces"
+    count = 0
+ 
+    for i in range(10):
+        if a[i] != target[i]:
+            count += 1
+ 
+    print(count)
