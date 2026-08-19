@@ -6,20 +6,21 @@
 
 | Total Problems | Topics |
 |---|---|
-| 42 | 9 |
+| 48 | 10 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (6)
+- [brute force](#brute-force) (7)
+- [constructive algorithms](#constructive-algorithms) (1)
 - [games](#games) (1)
 - [greedy](#greedy) (3)
-- [implementation](#implementation) (31)
-- [math](#math) (12)
+- [implementation](#implementation) (37)
+- [math](#math) (13)
 - [number theory](#number-theory) (1)
-- [sortings](#sortings) (4)
+- [sortings](#sortings) (5)
 - [strings](#strings) (12)
 
 ---
@@ -37,9 +38,16 @@
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/4/A%20-%20Watermelon/solution.txt) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/231/A%20-%20Team/solution.py) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.txt) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2009/A%20-%20Minimize!/solution.txt) |
 | 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.txt) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.txt) |
 
 ### games
 
@@ -75,9 +83,14 @@
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.txt) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.txt) |
 | 1351A | [A+B (Trial Problem)](https://codeforces.com/contest/1351/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1351/A%20-%20A%2BB%20(Trial%20Problem)/solution.txt) |
+| 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.txt) |
+| 1669A | [Division?](https://codeforces.com/contest/1669/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1669/A%20-%20Division%3F/solution.txt) |
+| 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1676/A%20-%20Lucky%3F/solution.txt) |
 | 1692A | [Marathon](https://codeforces.com/contest/1692/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1692/A%20-%20Marathon/solution.txt) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.txt) |
 | 1722A | [Spell Check](https://codeforces.com/contest/1722/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1722/A%20-%20Spell%20Check/solution.txt) |
+| 1742A | [Sum](https://codeforces.com/contest/1742/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1742/A%20-%20Sum/solution.txt) |
+| 1760A | [Medium Number](https://codeforces.com/contest/1760/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1760/A%20-%20Medium%20Number/solution.txt) |
 | 1772A | [A+B?](https://codeforces.com/contest/1772/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1772/A%20-%20A%2BB%3F/solution.txt) |
 | 1791A | [Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1791/A%20-%20Codeforces%20Checking/solution.txt) |
 | 1807A | [Plus or Minus](https://codeforces.com/contest/1807/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1807/A%20-%20Plus%20or%20Minus/solution.txt) |
@@ -89,6 +102,7 @@
 | 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.txt) |
 | 1985A | [Creating Words](https://codeforces.com/contest/1985/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1985/A%20-%20Creating%20Words/solution.txt) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.txt) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
 ### math
@@ -103,6 +117,7 @@
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.py) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2009/A%20-%20Minimize!/solution.txt) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.txt) |
 | 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.txt) |
 | 2093A | [Ideal Generator](https://codeforces.com/contest/2093/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2093/A%20-%20Ideal%20Generator/solution.txt) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2167/A%20-%20Square%3F/solution.txt) |
@@ -119,6 +134,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
+| 1760A | [Medium Number](https://codeforces.com/contest/1760/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1760/A%20-%20Medium%20Number/solution.txt) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.txt) |
 | 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.txt) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2167/A%20-%20Square%3F/solution.txt) |
