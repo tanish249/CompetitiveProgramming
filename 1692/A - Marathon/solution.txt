@@ -1,0 +1,15 @@
+t=int(input())
+for _ in range(t):
+    a,b,c,d=map(int,input().split())
+    if b>a and c>a and d>a:
+        print(3)
+    elif b>a and c>a:
+        print(2)
+    elif b>a and d>a:
+        print(2)
+    elif c>a and d>a:
+        print(2)
+    elif b>a or c>a or d>a:
+        print(1)
+    else:
+        print(0)
