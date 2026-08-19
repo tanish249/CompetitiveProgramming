@@ -1,0 +1,7 @@
+a=input()
+b=input()
+h=(a[::-1])
+if(b==h):
+    print("YES")
+else:
+    print("NO")
