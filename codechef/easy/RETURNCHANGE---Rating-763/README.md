@@ -61,14 +61,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-20T16:42:52.874Z  
+**Submitted:** 2026-08-20T16:43:09.198Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=int(input())
     h=round(a,-1)
-    print(100-h)
+    print(abs(100-h))
 ```
 
 ---
