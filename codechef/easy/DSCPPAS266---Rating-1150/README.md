@@ -73,7 +73,7 @@ There is no way to reduce the array to a single element.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T09:55:28.613Z  
+**Submitted:** 2026-08-22T08:53:07.127Z  
 
 ```py
 def canReduce(N: int, arr: list[int]) -> bool:
