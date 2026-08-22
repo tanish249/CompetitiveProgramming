@@ -56,16 +56,16 @@ The string contains both  **010**  and  **101**  as substrings.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T08:37:52.530Z  
+**Submitted:** 2026-08-22T08:38:09.322Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=input()
     if "010" in a or "101" in a:
-        print("GOOD")
+        print("Good")
     else:
-        print("BAD")
+        print("Bad")
 ```
 
 ---
