@@ -1,0 +1,12 @@
+t=int(input())
+for _ in range(t):
+    p=int(input())
+    a,b=map(str,input().split())
+    h=list(a)
+    g=list(b)
+    h.sort()
+    g.sort()
+    if h==g:
+      print("YES")
+    else:
+      print("NO")
