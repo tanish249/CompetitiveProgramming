@@ -1,0 +1,10 @@
+nums=list(map(int,input().split()))
+nums.sort()
+f=min(nums)
+g=max(nums)
+h=abs(f-g)
+p=nums[1]
+if h>=10:
+    print("check again")
+else:
+    print("final",p)
