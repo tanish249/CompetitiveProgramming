@@ -61,12 +61,12 @@ Since the robot can travel only $5$ units, it cannot reach the charging station.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:49:21.251Z  
+**Submitted:** 2026-08-24T13:49:39.035Z  
 
 ```py
 a,b,c=map(int,input().split())
 h=abs(a-b)
-if k>=h:
+if c>=h:
     print("YES")
 else:
     print("NO")
