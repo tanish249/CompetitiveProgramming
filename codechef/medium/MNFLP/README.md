@@ -59,7 +59,7 @@ For the third test case, its sum cannot be made `0`. Therefore, the answer is `-
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:57:46.655Z  
+**Submitted:** 2026-08-24T14:00:50.478Z  
 
 ```py
 t=int(input())
@@ -69,8 +69,8 @@ for _ in range(t):
     h=sum(nums)
     if h==0:
         print(0)
-    elif h>1:
-        print(h//2)
+    elif h%2==0:
+        print(abs(h)//2)
     else:
         print(-1)
 ```
