@@ -5,4 +5,7 @@ for _ in range(t):
     h=sum(nums)
     if h==0:
         print(0)
-    elif 
+    elif h>1:
+        print(h//2)
+    else:
+        print(-1)
