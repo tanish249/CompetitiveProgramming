@@ -1,0 +1,14 @@
+t=int(input())
+for _ in range(t):
+    a,b,c=map(int,input().split())
+    f=a+b
+    g=a+c
+    h=b+c
+    if a+b<c:
+      print(max(a,b,f)-(min(a,b,f)))
+    elif a+c<b:
+      print(max(a,g,c)-(min(a,g,c)))
+    elif b+c<a:
+      print(max(h,b,c)-(min(h,b,c)))
+    else:
+      print(max(a,b,c)-(min(a,b,c)))
