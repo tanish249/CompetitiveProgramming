@@ -6,6 +6,6 @@ for _ in range(t):
     if h==0:
         print(0)
     elif h%2==0:
-        print(h//2)
+        print(abs(h//2))
     else:
         print(-1)
