@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 52 | 10 |
+| 53 | 10 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [brute force](#brute-force) (7)
 - [constructive algorithms](#constructive-algorithms) (1)
 - [games](#games) (1)
-- [greedy](#greedy) (4)
+- [greedy](#greedy) (5)
 - [implementation](#implementation) (38)
 - [math](#math) (15)
 - [number theory](#number-theory) (1)
@@ -62,6 +62,7 @@
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/231/A%20-%20Team/solution.py) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.py) |
+| 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.txt) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.txt) |
 
 ### implementation
