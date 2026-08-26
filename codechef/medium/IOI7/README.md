@@ -59,7 +59,7 @@ Chef scored $300$ points while the cutoff was $361$, hence he failed to get a go
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:31:34.296Z  
+**Submitted:** 2026-08-26T12:20:04.781Z  
 
 ```py
 a,b=map(int,input().split())
