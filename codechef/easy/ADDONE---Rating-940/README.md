@@ -69,13 +69,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T08:28:38.667Z  
+**Submitted:** 2026-08-28T08:29:16.452Z  
 
 ```py
 t=int(input())
 for _ in range(t):
-    a=int(input())
-    print(a+1)
+    a=input()
+    h=int(a)
+    print(h+1)
+    
 ```
 
 ---
