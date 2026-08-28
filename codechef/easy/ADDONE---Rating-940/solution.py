@@ -1,4 +1,6 @@
 t=int(input())
 for _ in range(t):
-    a=int(input())
-    print(a+1)
+    a=input()
+    h=int(a)
+    print(h+1)
+    
