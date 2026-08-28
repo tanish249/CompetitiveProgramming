@@ -1,0 +1,7 @@
+t=int(input())
+for _ in range(t):
+    a,b,c=input().split()
+    h=a[0]
+    g=b[0]
+    f=c[0]
+    print(h+g+f)
