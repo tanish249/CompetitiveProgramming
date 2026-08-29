@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 58 | 11 |
+| 59 | 11 |
 
 ---
 
@@ -14,12 +14,12 @@
 
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (8)
+- [brute force](#brute-force) (9)
 - [constructive algorithms](#constructive-algorithms) (1)
 - [games](#games) (2)
 - [greedy](#greedy) (6)
-- [implementation](#implementation) (40)
-- [math](#math) (17)
+- [implementation](#implementation) (41)
+- [math](#math) (18)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (7)
 - [strings](#strings) (14)
@@ -50,6 +50,7 @@
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1873/A%20-%20Short%20Sort/solution.txt) |
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2009/A%20-%20Minimize!/solution.txt) |
 | 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.txt) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.txt) |
 
 ### constructive algorithms
 
@@ -117,6 +118,7 @@
 | 1985A | [Creating Words](https://codeforces.com/contest/1985/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1985/A%20-%20Creating%20Words/solution.txt) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.txt) |
 | 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.txt) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.txt) |
 | 2172A | [ASCII Art Contest](https://codeforces.com/contest/2172/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2172/A%20-%20ASCII%20Art%20Contest/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
 
@@ -136,6 +138,7 @@
 | 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.txt) |
 | 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.txt) |
 | 2093A | [Ideal Generator](https://codeforces.com/contest/2093/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2093/A%20-%20Ideal%20Generator/solution.txt) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.txt) |
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2167/A%20-%20Square%3F/solution.txt) |
 | 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.txt) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.txt) |
