@@ -74,16 +74,11 @@ Array is rearranged so that `0`’s come first, followed by 1’s, then 2’s.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-30T10:38:23.871Z  
+**Submitted:** 2026-08-30T10:38:43.296Z  
 
 ```py
 def sort_colors(nums):
-    n=len(nums)
-    
-    for i in range(n):
-        for j in range(n-1-i):
-            if nums[j] > nums[j+1]:
-               nums[j] , nums[j+1] = nums[j+1] , nums[j]
+    nums.sort()
     return nums
 ```
 
