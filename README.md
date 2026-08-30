@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 60 | 12 |
+| 61 | 12 |
 
 ---
 
@@ -18,10 +18,10 @@
 - [brute force](#brute-force) (9)
 - [constructive algorithms](#constructive-algorithms) (1)
 - [games](#games) (2)
-- [greedy](#greedy) (6)
+- [greedy](#greedy) (7)
 - [implementation](#implementation) (41)
-- [math](#math) (18)
-- [number theory](#number-theory) (1)
+- [math](#math) (19)
+- [number theory](#number-theory) (2)
 - [sortings](#sortings) (7)
 - [strings](#strings) (14)
 
@@ -82,6 +82,7 @@
 | 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.txt) |
 | 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.txt) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.txt) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.txt) |
 
 ### implementation
 
@@ -150,6 +151,7 @@
 | 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.txt) |
 | 2225A | [A Number Between Two Others](https://codeforces.com/contest/2225/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2225/A%20-%20A%20Number%20Between%20Two%20Others/solution.txt) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2227/A%20-%20Koshary/solution.txt) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.txt) |
 | 2256A | [Three Numbers on the Blackboard](https://codeforces.com/contest/2256/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2256/A%20-%20Three%20Numbers%20on%20the%20Blackboard/solution.txt) |
 
 ### number theory
@@ -157,6 +159,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Python 3](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.py) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [PyPy 3-64](https://github.com/tanish249/CompetitiveProgramming/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.txt) |
 
 ### sortings
 
