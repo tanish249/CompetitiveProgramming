@@ -118,7 +118,7 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:24:22.256Z  
+**Submitted:** 2026-08-31T15:28:13.679Z  
 
 ```py
 a=int(input())
@@ -127,13 +127,12 @@ b=int(input())
 o=nums.count(b)
 if o==1 and b in nums:
     print(-2)
-elif b in nums and :
-    
+elif b in nums:
+    q=nums.index(b)
+    w=nums.index(b,q+1)
+    print(w)
 else:
     print(-1)
-    
-    
-    
 
 ```
 
