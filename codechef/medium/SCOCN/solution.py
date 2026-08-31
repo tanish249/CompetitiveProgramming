@@ -2,13 +2,10 @@ a=int(input())
 nums=list(map(int,input().split()))
 b=int(input())
 o=nums.count(b)
-q=nums.index(b)
-w=nums.index(b,q+1)
-if o==1 and b in nums:
+if o==1 and n in nums:
     print(-2)
 elif b in nums:
-    
-    
+    print(len(nums) - 1 - nums[::-1].index(b))
 else:
     print(-1)
     
