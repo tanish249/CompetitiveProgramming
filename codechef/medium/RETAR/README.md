@@ -92,7 +92,7 @@ Since $2800 < 3000$, the output is `NO`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:11:38.105Z  
+**Submitted:** 2026-08-31T15:11:42.388Z  
 
 ```py
 a,b,c,d,e=map(int,input().split())
