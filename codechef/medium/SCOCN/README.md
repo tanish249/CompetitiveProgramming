@@ -118,16 +118,23 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:16:05.003Z  
+**Submitted:** 2026-08-31T15:19:33.900Z  
 
 ```py
 a=int(input())
 nums=list(map(int,input().split()))
-b=int(input()) 
-if b in nums:
-    print(nums.index(b))
+b=int(input())
+o=nums.count(b)
+if o==1 and n in nums:
+    print(-2)
+elif b in nums:
+    print(len(nums) - 1 - nums[::-1].index(b))
 else:
     print(-1)
+    
+    
+    
+
 ```
 
 ---
