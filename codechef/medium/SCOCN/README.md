@@ -118,14 +118,14 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:19:33.900Z  
+**Submitted:** 2026-08-31T15:20:01.057Z  
 
 ```py
 a=int(input())
 nums=list(map(int,input().split()))
 b=int(input())
 o=nums.count(b)
-if o==1 and n in nums:
+if o==1 and b in nums:
     print(-2)
 elif b in nums:
     print(len(nums) - 1 - nums[::-1].index(b))
