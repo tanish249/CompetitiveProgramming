@@ -118,7 +118,7 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:28:29.143Z  
+**Submitted:** 2026-08-31T15:27:59.593Z  
 
 ```py
 a=int(input())
