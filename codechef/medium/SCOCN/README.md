@@ -118,18 +118,18 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:26:45.515Z  
+**Submitted:** 2026-08-31T15:28:07.347Z  
 
 ```py
 a=int(input())
 nums=list(map(int,input().split()))
 b=int(input())
 o=nums.count(b)
-q=nums.index(b)
-w=nums.index(b,q+1)
 if o==1 and b in nums:
     print(-2)
 elif b in nums:
+    q=nums.index(b)
+    w=nums.index(b,q+1)
     print(w)
 else:
     print(-1)
