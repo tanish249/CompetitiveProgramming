@@ -118,16 +118,14 @@ Therefore, the output is `1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T15:15:51.669Z  
+**Submitted:** 2026-08-31T15:17:22.833Z  
 
 ```py
 a=int(input())
 nums=list(map(int,input().split()))
-b=int(input()) 
-if b in nums:
-    print(nums.index(b))
-else:
-    print(-1)
+b=int(input())
+o=nums.count(b)
+print(o)
 ```
 
 ---
