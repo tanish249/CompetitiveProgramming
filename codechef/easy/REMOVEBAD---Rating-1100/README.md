@@ -64,7 +64,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T13:14:06.583Z  
+**Submitted:** 2026-09-02T13:21:53.990Z  
 
 ```py
 t=int(input())
@@ -74,7 +74,7 @@ for _ in range(t):
     h=max(nums,key=nums.count)
     g=nums.count(h)
     p=len(nums)
-    print(abs(g-p))
+    print(p-g)
 ```
 
 ---
