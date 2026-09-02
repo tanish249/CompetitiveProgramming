@@ -5,4 +5,4 @@ for _ in range(t):
     h=max(nums,key=nums.count)
     g=nums.count(h)
     p=len(nums)
-    print(abs(g-p))
+    print(p-g)
