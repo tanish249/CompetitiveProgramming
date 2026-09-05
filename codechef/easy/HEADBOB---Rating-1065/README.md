@@ -49,7 +49,7 @@ NOT SURE
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T09:53:24.385Z  
+**Submitted:** 2026-09-05T09:54:35.795Z  
 
 ```py
 t=int(input())
@@ -58,7 +58,7 @@ for _ in range(t):
     b=input()
     if "I" in b:
         print("INDIAN")
-    elif "Y" in b and "N" in b:
+    elif "Y" in b:
         print("NOT INDIAN")
     else:
         print("NOT SURE")
