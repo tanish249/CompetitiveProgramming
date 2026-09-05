@@ -49,7 +49,7 @@ NOT SURE
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T09:53:16.375Z  
+**Submitted:** 2026-09-05T09:53:24.385Z  
 
 ```py
 t=int(input())
