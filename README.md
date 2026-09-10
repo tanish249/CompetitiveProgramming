@@ -2,7 +2,7 @@
 
 # 🧠 Coding Solutions
 
-![Total Solved](https://img.shields.io/badge/Total_Solved-754-blue?style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/Total_Solved-755-blue?style=for-the-badge)
 ![Streak](https://img.shields.io/badge/Streak-7_days-orange?style=for-the-badge)
 ![Last Synced](https://img.shields.io/badge/Last_Synced-10--09--2026-green?style=for-the-badge)
 
@@ -16,16 +16,16 @@
 
 | Difficulty | Solved |
 |:---:|:---:|
-| 🟢 Easy | **602** |
+| 🟢 Easy | **603** |
 | 🟡 Medium | **136** |
 | 🔴 Hard | **0** |
-| **Total** | **754** |
+| **Total** | **755** |
 
 ## 🛠️ Languages
 
 | Language | Solutions |
 |:---:|:---:|
-| Python | **746** |
+| Python | **747** |
 | C++ | **6** |
 | c_cpp | **1** |
 | plain_text | **1** |
