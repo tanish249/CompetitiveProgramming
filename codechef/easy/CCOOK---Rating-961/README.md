@@ -61,7 +61,7 @@ The first contestant has no solved problems, therefore he is a beginner. The sec
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T09:38:28.500Z  
+**Submitted:** 2026-09-10T14:09:24.402Z  
 
 ```py
 t=int(input())
