@@ -68,13 +68,13 @@ Thus, in the above sequence of fights, Anna has a positive health remaining at t
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T13:56:38.977Z  
+**Submitted:** 2026-09-10T13:56:53.606Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
-    h=a+b
+    h=a+b+c
     if h%2==0:
         print("YES")
     else:
