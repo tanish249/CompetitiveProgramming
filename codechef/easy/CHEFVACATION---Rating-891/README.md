@@ -50,13 +50,13 @@ Alternatively, Chef can also plan the trip with friends on days $1$ and $2$ and 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T07:13:49.191Z  
+**Submitted:** 2026-09-11T07:14:05.985Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
-    if c>a+b:
+    if c>a+b and (c>a or c>b):
         print("YES")
     else:
         print("NO")
