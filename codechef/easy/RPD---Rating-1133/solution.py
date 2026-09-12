@@ -5,4 +5,6 @@ for _ in range(t):
     nums.sort()
     h=nums[-1]
     g=nums[-2]
-    print(h*g)
+    f=h*g
+    nam=list(map(int,str(f)))
+    print(sum(nam))
