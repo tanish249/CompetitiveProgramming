@@ -6,5 +6,7 @@ for _ in range(t):
         print('YES')
     elif b>a and c>h:
         print('YES')
+    elif a>b and d>h:
+        print('YES')
     else:
         print('NO')
