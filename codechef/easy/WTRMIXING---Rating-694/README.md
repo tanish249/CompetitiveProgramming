@@ -63,7 +63,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T08:28:38.702Z  
+**Submitted:** 2026-09-12T08:30:14.916Z  
 
 ```py
 t=int(input())
@@ -72,9 +72,9 @@ for _ in range(t):
     h=abs(a-b)
     if a==b:
         print('YES')
-    elif b>a and c>h:
+    elif b>a and c>=h:
         print('YES')
-    elif a>b and d>h:
+    elif a>b and d>=h:
         print('YES')
     else:
         print('NO')
