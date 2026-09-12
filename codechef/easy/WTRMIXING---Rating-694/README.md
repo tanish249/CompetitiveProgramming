@@ -63,7 +63,7 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T08:27:55.706Z  
+**Submitted:** 2026-09-12T08:28:38.702Z  
 
 ```py
 t=int(input())
@@ -73,6 +73,8 @@ for _ in range(t):
     if a==b:
         print('YES')
     elif b>a and c>h:
+        print('YES')
+    elif a>b and d>h:
         print('YES')
     else:
         print('NO')
