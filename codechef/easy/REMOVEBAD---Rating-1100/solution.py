@@ -4,5 +4,5 @@ for _ in range(t):
     nums=list(map(int,input().split()))
     h=max(nums,key=nums.count)
     g=nums.count(h)
-    p=len(nums)
-    print(p-g)
+    f=len(nums)
+    print(f-g)
