@@ -61,7 +61,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T15:38:29.414Z  
+**Submitted:** 2026-09-12T08:49:06.670Z  
 
 ```py
 t=int(input())
@@ -71,7 +71,9 @@ for _ in range(t):
     nums.sort()
     h=nums[-1]
     g=nums[-2]
-    print(h*g)
+    f=h*g
+    nam=list(map(int,str(f)))
+    print(sum(nam))
 ```
 
 ---
