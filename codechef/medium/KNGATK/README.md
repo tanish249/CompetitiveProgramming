@@ -55,19 +55,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-12T07:45:02.743Z  
+**Submitted:** 2026-09-12T07:45:29.038Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=int(input())
     nums=list(map(int,input().split()))
-    
-    n=len(nums)
-    for i in range(n):
-        for j in range(n-1-i):
-            if nums[j] > nums[j+1]:
-               nums[j] , nums[j+1] = nums[j+1] , nums[j]
+    nums.sort()
     print(nums[1])
 ```
 
