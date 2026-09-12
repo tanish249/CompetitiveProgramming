@@ -4,9 +4,9 @@ for _ in range(t):
     h=abs(a-b)
     if a==b:
         print('YES')
-    elif b>a and c>=h:
+    elif b>a and c>h:
         print('YES')
-    elif a>b and d>=h:
+    elif a>b and d>h:
         print('YES')
     else:
         print('NO')
