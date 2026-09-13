@@ -52,7 +52,7 @@ In the second case, it is possible for Bob to solve the first problem, and Alice
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T05:55:11.025Z  
+**Submitted:** 2026-09-13T05:55:21.581Z  
 
 ```py
 t=int(input())
