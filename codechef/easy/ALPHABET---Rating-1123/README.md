@@ -60,7 +60,7 @@ The second word contains the letters d, o and g that aren't known by Jeff.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T16:53:50.467Z  
+**Submitted:** 2026-09-13T16:54:04.473Z  
 
 ```py
 a=input()
