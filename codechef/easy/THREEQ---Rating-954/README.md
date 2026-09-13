@@ -49,7 +49,7 @@ Fail
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T05:45:24.842Z  
+**Submitted:** 2026-09-13T05:45:43.871Z  
 
 ```py
 t=int(input())
