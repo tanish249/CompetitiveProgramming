@@ -7,6 +7,6 @@ for _ in range(t):
     x=num2.count(0)
     y=num2.count(1)
     if g==x and h==y:
-        print("PASS")
+        print("Pass")
     else:
-        print("FAIL")
+        print("Fail")
