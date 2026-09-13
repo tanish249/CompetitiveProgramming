@@ -31,13 +31,13 @@ Explanation: Distinct elements including both the arrays are: 1 2.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T10:41:46.962Z  
+**Submitted:** 2026-09-13T10:42:24.044Z  
 
 ```py
 class Solution:
     def findUnion(self, a, b):
-        h = a + b
-        g = sorted(set(h))
+        h=a+b
+        g=sorted(set(h))
         return g
 ```
 
