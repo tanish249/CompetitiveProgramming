@@ -49,7 +49,7 @@ Fail
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T05:44:59.311Z  
+**Submitted:** 2026-09-13T05:45:24.842Z  
 
 ```py
 t=int(input())
@@ -61,9 +61,9 @@ for _ in range(t):
     x=num2.count(0)
     y=num2.count(1)
     if g==x and h==y:
-        print("PASS")
+        print("Pass")
     else:
-        print("FAIL")
+        print("Fail")
 ```
 
 ---
