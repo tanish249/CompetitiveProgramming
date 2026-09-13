@@ -58,13 +58,13 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-13T06:04:34.213Z  
+**Submitted:** 2026-09-13T06:04:53.215Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    if a%2==0:
+    if a%2==0 and b%2!=0:
         print("YES")
     else:
         print("NO")
