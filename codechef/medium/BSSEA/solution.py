@@ -1,6 +1,5 @@
 a=int(input())
 nums=list(map(int,input().split()))
-h=nums[0]
-g=nums[-1]
-f=h+g
-print(f//2)
+h=nums[0]+nums[-1]
+g=h//2
+print(g)
