@@ -56,14 +56,14 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T08:22:51.608Z  
+**Submitted:** 2026-09-16T08:24:08.634Z  
 
 ```py
 t=int(input())
 for _ in range(t):
-    nums=list(map(int,input().split()))
-    h=sum(nums)
-    if h%2==0:
+    a,b,c,d=map(int,input().split())
+    h=a+b+c
+    if h%2==0 and d%2==0:
         print("NO")
     else:
         print("YES")
