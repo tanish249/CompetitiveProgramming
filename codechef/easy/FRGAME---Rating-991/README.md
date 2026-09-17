@@ -50,7 +50,7 @@ S
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T10:39:53.058Z  
+**Submitted:** 2026-09-17T10:40:30.062Z  
 
 ```py
 t=int(input())
@@ -58,11 +58,11 @@ for _ in range(t):
     a,b,c,d=map(int,input().split())
     h=a+c
     g=b+d
-    if g>h:
-        print("S")
-    else:
+    if h>=g:
         print("N")
-        
+    else:
+        print("S")
+    
 ```
 
 ---
