@@ -50,19 +50,19 @@ S
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-17T10:40:30.062Z  
+**Submitted:** 2026-09-17T10:43:01.776Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
-    h=a+c
-    g=b+d
-    if h>=g:
-        print("N")
+    if b>a:
+        h=a+c
+        g=b+d
+        if g>h:
+            print("S")
     else:
-        print("S")
-    
+        print("N")
 ```
 
 ---
