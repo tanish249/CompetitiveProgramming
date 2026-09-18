@@ -61,7 +61,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-06T09:20:02.170Z  
+**Submitted:** 2026-09-18T16:32:48.512Z  
 
 ```py
 class Solution:
