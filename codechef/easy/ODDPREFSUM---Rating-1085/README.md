@@ -58,14 +58,14 @@ Yes
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-19T17:35:46.078Z  
+**Submitted:** 2026-09-19T17:36:03.788Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=int(input())
     nums=list(map(int,input().split()))
-    h=len(nums)
+    h=sum(nums)
     if h%2!=0:
         print("Yes")
     else:
