@@ -71,13 +71,13 @@ Therefore, $100-40=60$ chips remain.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-22T15:20:10.189Z  
+**Submitted:** 2026-09-22T15:20:59.743Z  
 
 ```py
 a,b,c=map(int,input().split())
 h=a+b
-g=a*c
-print(abs(h-g))
+g=2*c
+print(h-g)
 ```
 
 ---
