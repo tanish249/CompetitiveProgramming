@@ -1,4 +1,4 @@
 a,b,c=map(int,input().split())
 h=a+b
-g=a*c
-print(abs(h-g))
+g=2*c
+print(h-g)
