@@ -86,7 +86,7 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T16:37:05.579Z  
+**Submitted:** 2026-09-24T16:39:20.376Z  
 
 ```py
 def isAnagram(s, t):
