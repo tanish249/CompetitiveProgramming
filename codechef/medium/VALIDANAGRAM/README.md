@@ -86,7 +86,7 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T16:50:19.100Z  
+**Submitted:** 2026-09-24T16:50:46.772Z  
 
 ```py
 def isAnagram(s, t):
@@ -95,7 +95,7 @@ def isAnagram(s, t):
     if h==g:
         return "YES"
     else:
-        return "No"
+        return "NO"
 ```
 
 ---
