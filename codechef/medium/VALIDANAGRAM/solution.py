@@ -4,4 +4,4 @@ def isAnagram(s, t):
     if h==g:
         return "YES"
     else:
-        return "No"
+        return "NO"
