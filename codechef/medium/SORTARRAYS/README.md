@@ -74,7 +74,7 @@ Array is rearranged so that `0`’s come first, followed by 1’s, then 2’s.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T16:32:51.323Z  
+**Submitted:** 2026-09-24T16:33:16.103Z  
 
 ```py
 def sort_colors(nums):
