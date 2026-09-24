@@ -39,19 +39,40 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T16:02:10.766Z  
+**Submitted:** 2026-09-24T16:08:10.202Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a=int(input())
-    nums=list(map(int,input().split()))
-    n=len(nums)
-    for i in range(n):
-        for j in range(n-1-i):
-            if nums[j]>nums[j+1]:
-                nums[j],nums[j+1]=nums[j+1],nums[j]
-    print(nums[-1])
+    arr=list(map(int,input().split()))
+    def merge_sort(arr):
+        if len(arr)<=1:
+            return arr
+    mid =len(arr)//2
+    left=merge_sort(arr[:mid])
+    right=merge_sort(arr[mid:])
+    result =[]
+    i =0 
+    j =0 
+    
+    while i<len(left) and j<len(right):
+        if left[i]<right[j]:
+            result.append(left[i])
+            i +=1
+        else:
+            result.append(right[j])
+            j +=1
+            
+    while i<len(left):
+        result.append(left[i])
+        i +=1
+    while j<len(right):
+        result.append(right[j])
+        j +=1
+print(result[-1])
+    
+   
 ```
 
 ---
