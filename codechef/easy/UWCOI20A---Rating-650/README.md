@@ -39,40 +39,47 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T16:08:10.202Z  
+**Submitted:** 2026-09-24T16:08:18.079Z  
 
 ```py
-t=int(input())
+t = int(input())
+
 for _ in range(t):
-    a=int(input())
-    arr=list(map(int,input().split()))
+    a = int(input())
+    arr = list(map(int, input().split()))
+
     def merge_sort(arr):
-        if len(arr)<=1:
+        if len(arr) <= 1:
             return arr
-    mid =len(arr)//2
-    left=merge_sort(arr[:mid])
-    right=merge_sort(arr[mid:])
-    result =[]
-    i =0 
-    j =0 
-    
-    while i<len(left) and j<len(right):
-        if left[i]<right[j]:
+
+        mid = len(arr) // 2
+        left = merge_sort(arr[:mid])
+        right = merge_sort(arr[mid:])
+
+        result = []
+        i = 0
+        j = 0
+
+        while i < len(left) and j < len(right):
+            if left[i] < right[j]:
+                result.append(left[i])
+                i += 1
+            else:
+                result.append(right[j])
+                j += 1
+
+        while i < len(left):
             result.append(left[i])
-            i +=1
-        else:
+            i += 1
+
+        while j < len(right):
             result.append(right[j])
-            j +=1
-            
-    while i<len(left):
-        result.append(left[i])
-        i +=1
-    while j<len(right):
-        result.append(right[j])
-        j +=1
-print(result[-1])
-    
-   
+            j += 1
+
+        return result
+
+    result = merge_sort(arr)
+    print(result[-1])
 ```
 
 ---
