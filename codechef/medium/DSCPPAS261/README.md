@@ -85,7 +85,7 @@ There are 2 1's present in both of the arrays so the answer is `1 1`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T08:58:39.255Z  
+**Submitted:** 2026-09-26T06:24:55.920Z  
 
 ```py
 class Solution:
