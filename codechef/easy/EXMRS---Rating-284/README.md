@@ -59,7 +59,7 @@ Chef earns no marks and loses $5 \times 2=10$ marks. His final score is $-10$, w
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T09:21:07.751Z  
+**Submitted:** 2026-09-29T09:21:18.516Z  
 
 ```py
 a,b,c,d,e=map(int,input().split())
