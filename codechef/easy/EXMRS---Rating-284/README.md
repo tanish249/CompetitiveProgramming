@@ -40,7 +40,6 @@ Chef earns $8 \times 4=32$ marks and loses $2 \times 1=2$ marks. His final score
 
 ### Sample 2:
 Input
-Copy to clipboard
 Output
 
 ```
@@ -60,7 +59,7 @@ Chef earns no marks and loses $5 \times 2=10$ marks. His final score is $-10$, w
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T09:21:09.021Z  
+**Submitted:** 2026-09-29T09:21:10.221Z  
 
 ```py
 a,b,c,d,e=map(int,input().split())
