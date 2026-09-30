@@ -1,5 +1,4 @@
 a,b,c=map(int,input().split())
-h=int(a/2)
-f=min(h,b)
-g=min(h,c)
-print(h,f,g)
+h=a//2
+g=b+c
+print(min(h,g))
