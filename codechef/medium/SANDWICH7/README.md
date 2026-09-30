@@ -57,14 +57,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:53:33.105Z  
+**Submitted:** 2026-09-30T15:55:17.811Z  
 
 ```py
 a,b,c=map(int,input().split())
 h=a//2
-f=h+b 
-g=h+c
-print(max(f,g))
+f=min(h,b)
+g=min(h,c)
+print(f,g)
 ```
 
 ---
