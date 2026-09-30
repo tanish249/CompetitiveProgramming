@@ -57,17 +57,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:56:33.104Z  
+**Submitted:** 2026-09-30T15:58:25.463Z  
 
 ```py
 a,b,c=map(int,input().split())
 h=a//2
 f=min(h,b)
 g=min(h,c)
-if a>b and a>c:
-    print(min(f,g))
-else:
-    print(f+g)
 ```
 
 ---
