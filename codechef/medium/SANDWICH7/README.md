@@ -57,14 +57,15 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T16:00:49.745Z  
+**Submitted:** 2026-09-30T15:59:45.461Z  
 
 ```py
+import math 
 a,b,c=map(int,input().split())
-h=int(a/2)
+h=math.ceil(a/2)
 f=min(h,b)
 g=min(h,c)
-print(h,f,g)
+print(max(f,g))
 ```
 
 ---
