@@ -77,15 +77,16 @@ Example - Insufficient Funds
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-27T09:22:42.891Z  
+**Submitted:** 2026-10-01T17:13:52.201Z  
 
 ```py
 a,b=map(float,input().split())
-p=a+0.50
-if b%5==0 and b>=a:
-    print(b-p)
+h=b-a
+
+if a%5==0 and b>a:
+    print(f"{h-0.50:.2f}")
 else:
-    print(b)
+    print(f"{b:.2f}")
 ```
 
 ---
