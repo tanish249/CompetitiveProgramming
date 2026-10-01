@@ -43,14 +43,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-29T13:02:17.530Z  
+**Submitted:** 2026-10-01T15:05:15.681Z  
 
 ```py
-t = int(input())
+t=int(input())
 for _ in range(t):
-    a = int(input())
-    rev = int(str(a)[::-1])
-    print(rev)
+    a=input()
+    h=str(a)[::-1]
+    print(int(h))
 ```
 
 ---
