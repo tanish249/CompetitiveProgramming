@@ -1,5 +1,5 @@
-t = int(input())
+t=int(input())
 for _ in range(t):
-    a = int(input())
-    rev = int(str(a)[::-1])
-    print(rev)
+    a=input()
+    h=str(a)[::-1]
+    print(int(h))
