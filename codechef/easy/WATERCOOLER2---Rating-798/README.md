@@ -51,13 +51,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-11T08:05:13.148Z  
+**Submitted:** 2026-10-01T15:49:59.576Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=abs(a-b)
     if a==b:
         print(0)
     else:
