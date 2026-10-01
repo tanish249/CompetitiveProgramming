@@ -54,10 +54,10 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T06:27:59.374Z  
+**Submitted:** 2026-10-01T15:26:39.521Z  
 
 ```py
-import math
+import math 
 
 t=int(input())
 for _ in range(t):
