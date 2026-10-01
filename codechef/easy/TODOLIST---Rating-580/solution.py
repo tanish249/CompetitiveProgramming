@@ -1,11 +1,10 @@
-# cook your dish here
-T = int(input())
-for i in range(T):
-    N = int(input())
-    D = list(map(int,input().split()))
-    count = 0
-    for i in range(N):
-        if D[i]>=1000:
-            count = count+1
-            continue
+t=int(input())
+for _ in range(t):
+    a=int(input())
+    nums=list(map(int,input().split()))
+    n=len(nums)
+    count = 0 
+    for i in range(0,n):
+        if nums[i]>=1000:
+            count +=1
     print(count)
