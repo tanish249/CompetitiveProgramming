@@ -62,7 +62,7 @@ DIESEL
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T07:06:39.163Z  
+**Submitted:** 2026-10-02T07:06:43.856Z  
 
 ```py
 t=int(input())
