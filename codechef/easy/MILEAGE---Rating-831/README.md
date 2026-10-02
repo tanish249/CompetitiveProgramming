@@ -62,14 +62,14 @@ DIESEL
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T07:06:43.856Z  
+**Submitted:** 2026-10-02T07:07:06.187Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d,e=map(int,input().split())
-    h=a//d
-    g=a//e
+    h=a/d
+    g=a/e
     o=h*b
     p=g*c
     if o==p:
