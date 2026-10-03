@@ -82,7 +82,7 @@ Charlie
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-20T12:07:20.296Z  
+**Submitted:** 2026-10-03T15:57:54.994Z  
 
 ```py
 t=int(input())
