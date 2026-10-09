@@ -60,15 +60,13 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T06:03:10.487Z  
+**Submitted:** 2026-10-09T13:58:43.805Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    if a==b:
-        print("YES")
-    elif b>a and b%a==0 :
+    if (  a%b==0 or b%a==0 )and b>=a:
         print("YES")
     else:
         print("NO")
