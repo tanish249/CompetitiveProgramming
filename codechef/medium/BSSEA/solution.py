@@ -1,5 +1,10 @@
+import math
+
 a=int(input())
 nums=list(map(int,input().split()))
-h=nums[0]+nums[-1]
-g=h//2
-print(g)
+n=len(nums)
+p=math.ceil(n/2)
+if n%2!=0:
+    print(nums[p-1])
+else:
+    print(nums[n//2-1])
