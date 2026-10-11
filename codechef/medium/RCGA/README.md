@@ -69,13 +69,13 @@ Therefore, Suneet wins in `0` ways.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-11T10:40:15.577Z  
+**Submitted:** 2026-10-11T10:40:32.410Z  
 
 ```py
 nums=set(list(map(int,input().split())))
 n=len(nums)
 if n>1:
-    print(n/2)
+    print(int(n/2))
 else:
     print(0)
 ```
