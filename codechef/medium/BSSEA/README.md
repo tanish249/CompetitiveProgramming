@@ -66,14 +66,19 @@ Seats $3$ and $7$ are both $2$ units away from the center. Choose seat $3$ becau
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T14:06:42.222Z  
+**Submitted:** 2026-10-11T10:35:29.281Z  
 
 ```py
+import math
+
 a=int(input())
 nums=list(map(int,input().split()))
-h=nums[0]+nums[-1]
-g=h//2
-print(g)
+n=len(nums)
+p=math.ceil(n/2)
+if n%2!=0:
+    print(nums[p-1])
+else:
+    print(nums[n//2-1])
 ```
 
 ---
