@@ -91,11 +91,16 @@ Since all elements are equal, every cyclic shift is the same array, and every ad
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-15T10:39:44.389Z  
+**Submitted:** 2026-10-15T10:41:44.831Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    a=int(input())
+    nums=list(map(int,input().split()))
+    h=max(nums)
+    g=min(nums)
+    print(h-g)
 ```
 
 ---
