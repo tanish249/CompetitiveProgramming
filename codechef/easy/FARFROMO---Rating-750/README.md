@@ -57,7 +57,7 @@ ALEX
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-16T18:00:03.327Z  
+**Submitted:** 2026-10-16T18:00:12.486Z  
 
 ```py
 t=int(input())
