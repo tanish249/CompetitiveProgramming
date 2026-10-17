@@ -66,7 +66,7 @@ Therefore, the answer is `NO`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-17T05:04:25.885Z  
+**Submitted:** 2026-10-17T05:04:54.196Z  
 
 ```py
 num=list(map(str,input().split()))
