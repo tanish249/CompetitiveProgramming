@@ -70,7 +70,7 @@ START38 LTIME108 LTIME108 LTIME108 START38 LTIME108
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T06:11:25.605Z  
+**Submitted:** 2026-10-18T06:11:56.944Z  
 
 ```py
 t=int(input())
