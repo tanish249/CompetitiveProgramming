@@ -51,7 +51,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T05:59:14.901Z  
+**Submitted:** 2026-10-18T06:01:59.904Z  
 
 ```py
 import math 
