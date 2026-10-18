@@ -51,16 +51,18 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-01T15:49:59.576Z  
+**Submitted:** 2026-10-18T05:59:14.901Z  
 
 ```py
+import math 
+
 t=int(input())
 for _ in range(t):
-    a,b=map(int,input().split())
+    a,b,=map(int,input().split())
     if a==b:
         print(0)
     else:
-        print(b//a)
+        print(math.floor(b/a))
 ```
 
 ---
