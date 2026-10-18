@@ -60,17 +60,17 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T08:20:15.706Z  
+**Submitted:** 2026-10-18T08:28:17.549Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
     h=a+b+c
-    if a>b>c or a<b<c or (a%2==0 and b%2==0 and c%2==0):
-        print('YES')
+    if h>=6:
+        print("YES")
     else:
-        print('NO')
+        print("NO")
 ```
 
 ---
