@@ -54,11 +54,17 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T15:56:46.936Z  
+**Submitted:** 2026-10-26T15:57:37.107Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    a,b=map(int,input().split())
+    h=a+b
+    if a==b and h>0:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
