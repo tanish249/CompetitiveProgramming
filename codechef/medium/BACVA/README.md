@@ -6,8 +6,7 @@
 
 ### Bank Account Validator
 
-You are given $T$ account numbers. For each test case, the account number is represented by an integer $A$.
-
+You are given an account number represented by a positive integer $A$.
 An account number is considered  **valid**  if the sum of all its digits is divisible by $10$. Otherwise, it is considered  **invalid**.
 
 For example, for the account number $12340$, the sum of its digits is:
@@ -19,16 +18,11 @@ Since $10$ is divisible by $10$, the account number is valid.
 For each account number, determine whether it is  **valid**.
 
 ### Input Format
-
-The first line contains an integer $T$ — the number of test cases.
-
-Each of the next $T$ lines contains an integer $A$ — the account number.
-
+- The first line contains an integer $T$ — the number of test cases.
+- Each of the next $T$ lines contains an integer $A$ — the account number.
 ### Output Format
 
-For each test case, print `Valid` if the account number is valid.
-
-Otherwise, print `Invalid`.
+For each test case, print `Valid` if the account number is valid, or `Invalid` otherwise, on a separate line.
 
 ### Constraints
 - $1 \le T \le 1000$
@@ -63,17 +57,11 @@ For the third account number, the digit sum is $10$, which is divisible by $10$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-24T17:39:56.473Z  
+**Submitted:** 2026-10-26T15:58:00.502Z  
 
 ```py
-t=int(input())
-for _ in range(t):
-    n=int(input())
-    h=list(map(int,str(n)))
-    if sum(h)%10==0:
-        print("Valid")
-    else:
-        print("Invalid")
+# cook your dish here
+
 ```
 
 ---
