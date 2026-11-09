@@ -57,7 +57,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T13:36:05.596Z  
+**Submitted:** 2026-11-09T13:39:49.406Z  
 
 ```py
 # update the code below to solve this problem
@@ -67,8 +67,11 @@ import math
 t = int(input())
 for i in range(t):
     a,b=map(int,input().split())
-    h=a%2
-    g=
+    if a%2!=0 and b%2!=0:
+        print(min(a,b))
+    else:
+        print()
+    
 
 ```
 
