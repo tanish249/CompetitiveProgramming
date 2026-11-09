@@ -82,7 +82,7 @@ The only group is the single student at index $3$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-09T13:35:35.459Z  
+**Submitted:** 2026-11-09T13:35:42.459Z  
 
 ```py
 # cook your dish here
