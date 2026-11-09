@@ -5,5 +5,8 @@ import math
 t = int(input())
 for i in range(t):
     a,b=map(int,input().split())
-    h=a%2
-    g=
+    if a%2!=0 and b%2!=0:
+        print(min(a,b))
+    else:
+        print()
+    
