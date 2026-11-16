@@ -1,9 +1,0 @@
-a,b,c,d=map(int,input().split())
-h=abs(a-b)
-g=abs(c-d)
-if(h<g):
-    print("FIRST")
-elif(h>g):
-    print("SECOND")
-else:
-    print("BOTH")
