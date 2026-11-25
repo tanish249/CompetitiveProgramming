@@ -54,16 +54,13 @@ NO
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-24T09:14:46.871Z  
+**Submitted:** 2026-11-25T12:27:25.915Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c,d=map(int,input().split())
-    h=a+b
-    g=a+c
-    p=b+a
-    if h>=d or g>=d or p>=d:
+    if a+b>=d or a+c>=d or b+c>=d:
         print("YES")
     else:
         print("NO")
