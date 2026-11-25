@@ -61,16 +61,10 @@ The pawn first moves two rows, from row $2$ to row $4$, and then one row at a ti
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T16:16:44.392Z  
+**Submitted:** 2026-11-25T16:14:53.755Z  
 
 ```py
-t=int(input())
-for _ in range(t):
-    a=int(input())
-    if a==2:
-        print(5)
-    else:
-        print(abs(8-a))
+a=int(input())
 ```
 
 ---
