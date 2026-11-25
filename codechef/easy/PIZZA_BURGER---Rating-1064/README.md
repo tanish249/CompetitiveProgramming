@@ -54,15 +54,15 @@ NOTHING
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T04:47:11.107Z  
+**Submitted:** 2026-11-25T04:47:37.219Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b,c=map(int,input().split())
-    if a>b:
+    if a>=b:
         print("PIZZA")
-    elif a>c:
+    elif a>=c:
         print("BURGER")
     else:
         print("NOTHING")
