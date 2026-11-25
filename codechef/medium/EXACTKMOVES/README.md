@@ -60,11 +60,17 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T16:19:45.014Z  
+**Submitted:** 2026-11-25T16:06:08.003Z  
 
 ```py
-# cook your dish here
-
+t=int(input())
+for _ in range(t):
+    a,b=map(int,input().split())
+    h=a-b
+    if h%2==0:
+        print("YES")
+    else:
+        print("NO")
 ```
 
 ---
