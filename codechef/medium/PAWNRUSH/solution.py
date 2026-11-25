@@ -1,9 +1,7 @@
-t = int(input())
-
+t=int(input())
 for _ in range(t):
-    r = int(input())
-
-    if r == 2:
+    a=int(input())
+    if a==2:
         print(5)
     else:
-        print(8 - r)
+        print(abs(8-a))
