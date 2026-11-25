@@ -1,1 +1,9 @@
-a=int
+t = int(input())
+
+for _ in range(t):
+    r = int(input())
+
+    if r == 2:
+        print(5)
+    else:
+        print(8 - r)
