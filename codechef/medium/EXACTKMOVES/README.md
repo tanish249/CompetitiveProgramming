@@ -60,14 +60,11 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T16:19:37.970Z  
+**Submitted:** 2026-11-25T16:19:45.014Z  
 
 ```py
-t=int(input())
-for _ in range(t):
-    a,b=map(int,input().split())
-    h=a-b
-    print(h)
+# cook your dish here
+
 ```
 
 ---
