@@ -60,14 +60,13 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T16:06:08.003Z  
+**Submitted:** 2026-11-25T16:23:23.959Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=a-b
-    if h%2==0:
+    if a>=b and 2*b>=a:
         print("YES")
     else:
         print("NO")
