@@ -1,8 +1,7 @@
 t=int(input())
 for _ in range(t):
     a,b=map(int,input().split())
-    h=a-b
-    if h%2==0:
+    if a>=b and 2*b>=a:
         print("YES")
     else:
         print("NO")
