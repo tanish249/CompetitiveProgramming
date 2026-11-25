@@ -1,3 +1,1 @@
-a=int(input())
-h=8%a
-print(h)
+a=int
