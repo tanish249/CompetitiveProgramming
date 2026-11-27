@@ -1,0 +1,71 @@
+# CCISLAND - Rating 878
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+### Chef On Island
+
+Suppose Chef is stuck on an island and currently he has $x$ units of food supply and $y$ units of water supply in total that he could collect from the island. He needs $x_r$ units of food supply and $y_r$ units of water supply per day at the minimal to have sufficient energy to build a boat from the woods and also to live for another day. Assuming it takes exactly $D$ days to build the boat and reach the shore, tell whether Chef has the sufficient amount of supplies to be able to reach the shore by building the boat?
+
+### Input:
+- First line will contain $T$, number of testcases. Then the testcases follow.
+- Each testcase contains of a single line of input, five integers $x, y, x_r, y_r, D$.
+### Output:
+
+For each testcase, output in a single line answer "YES" if Chef can reach the shore by building the boat and "NO" if not (without quotes).
+
+You may print each character of each string in uppercase or lowercase (for example, the strings "yEs", "yes", "Yes" and "YES" will all be treated as identical).
+
+### Constraints
+- $1 \leq T \leq 300$
+- $1 \leq x, y \leq 100$
+- $1 \leq x_r, y_r, D \leq 10$
+### Sample 1:
+Input
+Output
+
+```
+3
+4 2 1 1 1
+4 2 1 3 1
+4 2 4 2 2
+```
+
+```
+YES
+NO
+NO
+```
+
+### Explanation:
+
+ **TestCase 1:**  Chef's food supply will last for $\frac{4}{1} = 4$ days and water supply will last for $\frac{2}{1} = 2$ days, so in total he will be able to survive for $min(4, 2) = 2$ days and since required time to reach the shore is $1$ day, he will be able to reach there.
+
+ **TestCase 2:**  Chef's food supply will last for $\frac{4}{1} = 4$ days and water supply will last for $\frac{2}{3} = 0.67$ days, so in total he will be able to survive for $min(4, 0.67) = 0.67$ days and since required time to reach the shore is $1$ day, he won't be able to reach there.
+
+ **TestCase 3:**  Chef's food supply will last for $\frac{4}{4} = 1$ day and water supply will also last for $\frac{2}{2} = 1$ day, so in total he will be able to survive for $min(1, 1) = 1$ day and since required time to reach the shore is $2$ days, he won't be able to reach there.
+
+## Solution
+
+**Language:** Python  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-11-27T12:15:01.769Z  
+
+```py
+t=int(input())
+for _ in range(t):
+    a,b,c,d,e=map(int,input().split())
+    h=a//c
+    g=b//d
+    p=min(h,g)
+    if p>=e:
+        print("YES")
+    else:
+        print("NO")
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/CCISLAND)
